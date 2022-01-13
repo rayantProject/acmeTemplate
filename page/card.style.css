@@ -1,0 +1,14 @@
+@media (min-width: 769px) {
+ 
+    #main_detail{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
+/* .card{
+    border-radius: 50px;
+} */
