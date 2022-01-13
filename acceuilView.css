@@ -1,0 +1,53 @@
+
+#navigation{
+    background: rgba( 255, 255, 255, 0.25 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+}
+
+
+@media (min-width: 769px) {
+    #navigation{
+        position: fixed;
+
+        top: 40px;
+
+        padding: 0%;
+
+        height: 10%;
+
+        background-color: white;
+        box-shadow: none;
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        
+
+    /* background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px ); */
+    
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    #logo_home{
+        position: fixed;
+
+        top: 0px;
+
+        padding: 0%;
+
+        background-color: white;
+
+       
+    }
+
+    main{
+        margin-top: 8rem;
+    }
+
+
+}
+
+
+

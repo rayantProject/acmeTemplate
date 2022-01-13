@@ -1,0 +1,31 @@
+@media (min-width: 769px) {
+        #navigation{
+            position: fixed;
+
+            top: 0px;
+
+            padding: 0%;
+
+            height: 10%;
+        }
+
+        #main_detail{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+    
+}
+
+
+@font-face {
+    font-family: Be Vietnam Pro;
+    src: url(style/Be_Vietnam_Pro/BeVietnamPro-Light.ttf);
+
+
+}
+
+body{
+    font-family: "Be Vietnam Pro";
+}
